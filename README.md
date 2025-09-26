@@ -29,8 +29,7 @@ The process provides dynamic configuration settings within the business process 
 
 ### Table 1: Process Settings – Configurations
 
-![Table](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/images/Table.png)
-
+![Table](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Table.PNG)
 
 ## Usage Instructions
 1.	Copy the provided code and create a new business process in the HealthConnect Management Portal using the code class.
