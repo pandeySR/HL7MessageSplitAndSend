@@ -35,8 +35,11 @@ The process provides dynamic configuration settings within the business process 
 1.	Copy the provided code and create a new business process in the HealthConnect Management Portal using the code class.
    
 3.	Navigate to Process → Settings, then select TargetConfigurations.
-   
-   ![TargetConfiguration].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/TargetConfiguration.PNG)
+
+   ### 🎯 Target Configuration Screenshot
+
+![Target Configuration](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/TargetConfiguration.PNG)
+
 
 5.	Choose the operations and target systems where you want to send the message.
    
