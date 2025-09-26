@@ -4,24 +4,18 @@ This template offers flexibility by allowing users to either send the message as
 
 Key configurable parameters include:
 •	Message type selection
-
 •	Identification of repeating segments
-
 •	Segment group definitions
-
 •	Unique identifier settings
 
 Highlights:
-
 •	The source message can contain multiple repeating segments such as NTE, AL1, OBX, etc.
 •	You can send the entire message without splitting it, applying only your logic, to downstream systems.
 •	Alternatively, you can split the message according to your instructions and send the segments separately to one or multiple downstream systems as needed.
 
 This process is designed to split any repeating HL7 message segment and route it to the chosen downstream systems.  It functions as a reusable template, requiring little to no code modification to adapt to your specific needs.
 
-
 Usage Instructions
-
 1.	Copy the provided code and create a new business process in the HealthConnect Management Portal using the code class.
 2.	Navigate to Process → Settings, then select TargetConfigurations. 
 3.	Choose the operations and target systems where you want to send the message.
