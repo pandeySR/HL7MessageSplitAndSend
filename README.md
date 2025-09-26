@@ -3,15 +3,24 @@ HL7 messages often contain multiple repeating segments such as NTE, AL1, OBX, ZT
 This template offers flexibility by allowing users to either send the message as-is with the required logic applied or split the message based on customizable settings defined within the business process configuration. Importantly, this approach supports reuse across various use cases and HL7 schemas. Please note that you may need to update or modify a few lines of code depending on your HL7 schema or any custom schema you use. The source message must conform to your message schema.
 
 Key configurable parameters include:
+
 •	Message type selection
+
 •	Identification of repeating segments
+
 •	Segment group definitions
+
 •	Unique identifier settings
 
+
 Highlights:
+
 •	The source message can contain multiple repeating segments such as NTE, AL1, OBX, etc.
+
 •	You can send the entire message without splitting it, applying only your logic, to downstream systems.
+
 •	Alternatively, you can split the message according to your instructions and send the segments separately to one or multiple downstream systems as needed.
+
 
 This process is designed to split any repeating HL7 message segment and route it to the chosen downstream systems.  It functions as a reusable template, requiring little to no code modification to adapt to your specific needs.
 
