@@ -9,6 +9,7 @@ Key configurable parameters include:
 •	Unique identifier settings
 
 Highlights:
+
 •	The source message can contain multiple repeating segments such as NTE, AL1, OBX, etc.
 •	You can send the entire message without splitting it, applying only your logic, to downstream systems.
 •	Alternatively, you can split the message according to your instructions and send the segments separately to one or multiple downstream systems as needed.
@@ -19,8 +20,7 @@ This process is designed to split any repeating HL7 message segment and route it
 Usage Instructions
 
 1.	Copy the provided code and create a new business process in the HealthConnect Management Portal using the code class.
-2.	Navigate to Process → Settings, then select TargetConfigurations.
- 
+2.	Navigate to Process → Settings, then select TargetConfigurations. 
 3.	Choose the operations and target systems where you want to send the message.
 4.	Configure all settings as specified in the table above according to your requirements and apply the changes.
 5.	Restart your process to activate the new configuration.
