@@ -48,7 +48,7 @@ The process provides dynamic configuration settings within the business process 
 ## TESTING:
 ### Screenshot 1: Management Portal showing sending the entire source HL7 message and sending repeating segments to three different systems.
 
-![ManagementPortal].(https://github.com/pandeySR/HL7MessageSplitAndSend/blob/main/Images/ManagementPortal.png))
+![TargetConfiguration](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/TargetConfiguration.PNG)
 
 Select  Process  Setting and complete all the configuration according to your requirements.
 ### Screenshot 2.a: Process settings configuration screen.
