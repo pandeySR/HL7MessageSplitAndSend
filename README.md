@@ -36,11 +36,9 @@ The process provides dynamic configuration settings within the business process 
    
 3.	Navigate to Process, Settings, then select TargetConfigurations.
 
-   ### 🎯 Target Configuration Screenshot
+### 🎯 Target Configuration Screenshot
 
-   ![Management Portal](Images/ManagementPortal.png)
-
-
+![Management Portal](Images/ManagementPortal.png)
 
 
 5.	Choose the operations and target systems where you want to send the message.
@@ -53,11 +51,11 @@ The process provides dynamic configuration settings within the business process 
 ## TESTING:
 ### Screenshot 1: Management Portal showing sending the entire source HL7 message and sending repeating segments to three different systems.
 
-![TargetConfiguration](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/TargetConfiguration.PNG)
+![TargetConfiguration](Images/TargetConfiguration.png)
 
-Select  Process  Setting and complete all the configuration according to your requirements.
+Select  Process, Setting and complete all the configuration according to your requirements.
 ### Screenshot 2.a: Process settings configuration screen.
-![Screenshot 2a].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screenshot_2a.png)
+![Screenshot 2a](Images/Screenshot_2a.png)
 
 If you need more information about any configuration, simply click the title for detailed explanations.
 
