@@ -25,6 +25,9 @@ This template offers flexibility by allowing users to either send the message as
 
 This process is designed to split any repeating HL7 message segment and route it to the chosen downstream systems.  It functions as a reusable template, requiring little to no code modification to adapt to your specific needs. The process provides dynamic configuration settings within the business process setup, allowing users to customize message splitting as needed. The main settings are detailed in Table 1 below:
 
+The process provides dynamic configuration settings within the business process setup, allowing users to customize message splitting as needed. The main settings are detailed in Table 1 below:
+
+Table 1: Process Settings – Configurations
 
 
 ## Usage Instructions
