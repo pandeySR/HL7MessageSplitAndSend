@@ -82,11 +82,11 @@ If you need more information about any configuration, simply click the title for
 
 ### Screenshot 7.a: Target message containing the first ZTX  segment.
 
-![Screenshot 7a](Images/Screensthot_7a.png)
+![Screenshot 7a](Images/Screenshot_7a.png)
 
 ### Screenshot 7.b: Target message containing the second ZTX segment.
 
-![Screenshot 7b](Images/Screensthot_7b.png)
+![Screenshot 7b](Images/Screenshot_7b.png)
 
 ## Additional Example with Different Configurations
 In this example, the source message contains multiple repeating NTE segments, where each NTE segment is part of the group path: PIDgrpgrp().ORCgrp().OBXgrp.
@@ -101,23 +101,23 @@ The process is configured to split and send each NTE segment individually to the
 
 ### Screenshot 8: Process Configurations
 
-![Screenshot 8](Images/Screensthot_8.png)
+![Screenshot 8](Images/Screenshot_8.png)
 
 ### Screenshot 9: Source message 
 
-![Screenshot 9](Images/Screensthot_9.png)
+![Screenshot 9](Images/Screenshot_9.png)
 
 ### Screenshot 10.a: Target message – First NTE segment
 
-![Screenshot 10a](Images/Screensthot_10a.png)
+![Screenshot 10a](Images/Screenshot_10a.png)
 
 ### Screenshot 10.b: Target message – Second NTE segment
 
-![Screenshot 10b](Images/Screensthot_10b.png)
+![Screenshot 10b](Images/Screenshot_10b.png)
 
 ### Screenshot 10.c: Target message – Third NTE segment
 
-![Screenshot 10c](Images/Screensthot_10c.png)
+![Screenshot 10c](Images/Screenshot_10c.png)
 
 
 I hope this template will help streamline your HL7 message processing. 
