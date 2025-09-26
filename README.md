@@ -4,8 +4,11 @@ This template offers flexibility by allowing users to either send the message as
 
 Key configurable parameters include:
 •	Message type selection
+
 •	Identification of repeating segments
+
 •	Segment group definitions
+
 •	Unique identifier settings
 
 Highlights:
