@@ -54,7 +54,7 @@ Property SegmentRepeatingGrp As %String(VALUELIST = ",Y,N") [ InitialExpression 
 /// </ul>
 /// Multiple Segment Group Path - define and give the path if segment is multiple group eg PIDgrp->OBX()
 /// PIDgrp(1).ORCgrp(1).OBXgrp(1).NTE() = PIDgrp(1).ORCgrp(1).OBXgrp (the last segment doesn't need to be mentioned (1)).
-Property MultipleSegGrpPath As %String(VALUELIST = ",NA,PIDgrp,MRGgrp,PRG1grp,IN1grp,ORCgrp(1).OBRuniongrp,The following requires more testing... do not select/use in PROD!,PIDgrpgrp(1).ORCgrp(1).OBXgrp,ORCgrp(1).OBRuniongrp.OBXgrp,RGSgrp(1).AILgrp,RGSgrp(1).AIGgrp,RGSgrp(1).AISgrp") [ InitialExpression = "NA", Required ];
+Property MultipleSegGrpPath As %String(VALUELIST = ",NA,PIDgrp,MRGgrp,PRG1grp,IN1grp,ORCgrp(1).OBRuniongrp,PIDgrpgrp(1).ORCgrp(1).OBXgrp,The following requires more testing — do not select or use in production!,ORCgrp(1).OBRuniongrp.OBXgrp,RGSgrp(1).AILgrp,RGSgrp(1).AIGgrp,RGSgrp(1).AISgrp") [ InitialExpression = "NA", Required ];
 
 /// To make the message unique, please specify which segment and field you want to use, e.g., MHS or FT1.
 Property SegmentNameForUniqueID As %String(MAXLEN = 5);
@@ -79,7 +79,6 @@ Parameter SETTINGS = "MessageType,MultipleSegmentName,IsRepeating,SegmentRepeati
 
 Method OnRequest(pRequest As EnsLib.HL7.Message, Output pResponse As Ens.Response) As %Status
 {
-
  /* ----------------------------------------------------------------------------------------------
     Note: You can access user-defined data directly from the management portal settings. However, 
     for business requirements, you may need to manipulate or further check the data. In such cases,
@@ -163,9 +162,7 @@ Method ProcessMessageFromNoRepeatGroup(ByRef mRequest As EnsLib.HL7.Message, msg
 	Try
 	{
 		K totSeg 
-	
 		#dim totSeg = mRequest.SegCount
-		
 		//prepare dataset
 		S dataSets=..GetDataSets(mRequest,segNameUID,segDetail,segFieldNo)
 		K flag S msgUID=$P(dataSets,":",1)
