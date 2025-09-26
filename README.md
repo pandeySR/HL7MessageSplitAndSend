@@ -27,8 +27,10 @@ This process is designed to split any repeating HL7 message segment and route it
 
 The process provides dynamic configuration settings within the business process setup, allowing users to customize message splitting as needed. The main settings are detailed in Table 1 below:
 
-Table 1: Process Settings – Configurations
+### Table 1: Process Settings – Configurations
+![Images](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Table.png)
 
+![Images](Table.png)
 
 ## Usage Instructions
 1.	Copy the provided code and create a new business process in the HealthConnect Management Portal using the code class.
