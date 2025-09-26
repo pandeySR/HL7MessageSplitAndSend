@@ -27,7 +27,7 @@ This process is designed to split any repeating HL7 message segment and route it
 
 The process provides dynamic configuration settings within the business process setup, allowing users to customize message splitting as needed. The main settings are detailed in Table 1 below:
 
-### Table 1: Process Settings – Configurations
+#### Table 1: Process Settings – Configurations
 
 ![Table](https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Table.PNG)
 
@@ -36,7 +36,7 @@ The process provides dynamic configuration settings within the business process 
    
 3.	Navigate to Process, Settings, then select TargetConfigurations.
 
-### 🎯 Target Configuration Screenshot
+#### 🎯 Target Configuration Screenshot
 
 ![Management Portal](Images/ManagementPortal.png)
 
@@ -49,42 +49,42 @@ The process provides dynamic configuration settings within the business process 
     
 
 ## TESTING:
-### Screenshot 1: Management Portal showing sending the entire source HL7 message and sending repeating segments to three different systems.
+#### Screenshot 1: Management Portal showing sending the entire source HL7 message and sending repeating segments to three different systems.
 
 ![TargetConfiguration](Images/TargetConfiguration.png)
 
 Select  Process, Setting and complete all the configuration according to your requirements.
-### Screenshot 2.a: Process settings configuration screen.
+#### Screenshot 2.a: Process settings configuration screen.
 ![Screenshot 2a](Images/Screenshot_2a.png)
 
 If you need more information about any configuration, simply click the title for detailed explanations.
 
-### Screenshot 2.b: Supporting information screen.
+#### Screenshot 2.b: Supporting information screen.
 ![Screenshot 2b](Images/Screenshot_2b.png)
 
 # Examples of Source and Target Messages: 
-### Screenshot 3: Source message containing 5 repeating ZTX segments.
+#### Screenshot 3: Source message containing 5 repeating ZTX segments.
 ![Screenshot 3](Images/Screenshot_3.png)
 
-### Screenshot 4.a: Target system configuration sending the source message as-is and splitting the ZTX segments individually to operations.
+#### Screenshot 4.a: Target system configuration sending the source message as-is and splitting the ZTX segments individually to operations.
 ![Screenshot 4a](Images/Screenshot_41.png)
 
-### Screenshot 4.b: Target system sending the source message as-is and splitting only the last ZTX segment to operations.
+#### Screenshot 4.b: Target system sending the source message as-is and splitting only the last ZTX segment to operations.
 ![Screenshot 4b](Images/Screenshot_4b.png)
 
 ## Another example where only split messages are sent, without sending the original full message first:
 
-### Screenshot 5: Source message with two ZTX segments split into two separate messages, each containing one ZTX segment.
-### Screenshot 6: Source Message
+#### Screenshot 5: Source message with two ZTX segments split into two separate messages, each containing one ZTX segment.
+#### Screenshot 6: Source Message
 
 ![Screenshot 5_6](Images/Screensthot_5_6.png)
 
 
-### Screenshot 7.a: Target message containing the first ZTX  segment.
+#### Screenshot 7.a: Target message containing the first ZTX  segment.
 
 ![Screenshot 7a](Images/Screenshot_7a.png)
 
-### Screenshot 7.b: Target message containing the second ZTX segment.
+#### Screenshot 7.b: Target message containing the second ZTX segment.
 
 ![Screenshot 7b](Images/Screenshot_7b.png)
 
@@ -99,23 +99,23 @@ The process is configured to split and send each NTE segment individually to the
 •	Screenshot 10.c– Third NTE segment
 
 
-### Screenshot 8: Process Configurations
+#### Screenshot 8: Process Configurations
 
 ![Screenshot 8](Images/Screenshot_8.png)
 
-### Screenshot 9: Source message 
+#### Screenshot 9: Source message 
 
 ![Screenshot 9](Images/Screenshot_9.png)
 
-### Screenshot 10.a: Target message – First NTE segment
+#### Screenshot 10.a: Target message – First NTE segment
 
 ![Screenshot 10a](Images/Screenshot_10a.png)
 
-### Screenshot 10.b: Target message – Second NTE segment
+#### Screenshot 10.b: Target message – Second NTE segment
 
 ![Screenshot 10b](Images/Screenshot_10b.png)
 
-### Screenshot 10.c: Target message – Third NTE segment
+#### Screenshot 10.c: Target message – Third NTE segment
 
 ![Screenshot 10c](Images/Screenshot_10c.png)
 
