@@ -60,31 +60,31 @@ Select  Process, Setting and complete all the configuration according to your re
 If you need more information about any configuration, simply click the title for detailed explanations.
 
 ### Screenshot 2.b: Supporting information screen.
-![Screenshot 2b].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screenshot_2b.png)
+![Screenshot 2b](Images/Screenshot_2b.png)
 
 # Examples of Source and Target Messages: 
 ### Screenshot 3: Source message containing 5 repeating ZTX segments.
-![Screenshot 3].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screenshot_3.png)
+![Screenshot 3](Images/Screenshot_3.png)
 
 ### Screenshot 4.a: Target system configuration sending the source message as-is and splitting the ZTX segments individually to operations.
-![Screenshot 4a].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screenshot_41.png)
+![Screenshot 4a](Images/Screenshot_41.png)
 
 ### Screenshot 4.b: Target system sending the source message as-is and splitting only the last ZTX segment to operations.
-![Screenshot 4b].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screenshot_4b.png)
+![Screenshot 4b](Images/Screenshot_4b.png)
 
 ## Another example where only split messages are sent, without sending the original full message first:
 
 ### Screenshot 5: Source message with two ZTX segments split into two separate messages, each containing one ZTX segment.
 ### Screenshot 6: Source Message
 
-![Screenshot 5_6].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_5_6.png)
+![Screenshot 5_6](Images/Screensthot_5_6.png)
 
 
 ### Screenshot 7.a: Target message containing the first ZTX  segment.
-![Screenshot 7a].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_7a.png)
+![Screenshot 7a](Images/Screensthot_7a.png)
 
 ### Screenshot 7.b: Target message containing the second ZTX segment.
-![Screenshot 7b].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_7b.png)
+![Screenshot 7b](Images/Screensthot_7b.png)
 
 ## Additional Example with Different Configurations
 In this example, the source message contains multiple repeating NTE segments, where each NTE segment is part of the group path: PIDgrpgrp().ORCgrp().OBXgrp.
@@ -98,19 +98,18 @@ The process is configured to split and send each NTE segment individually to the
 
 
 ### Screenshot 8: Process Configurations
-![Screenshot 8].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_8.png)
+![Screenshot 8](Images/Screensthot_8.png)
 
 ### Screenshot 9: Source message 
-![Screenshot 9].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_9.png)
+![Screenshot 9](Images/Screensthot_9.png)
 
 ### Screenshot 10.a: Target message – First NTE segment
-![Screenshot 10a].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_10a.png)
+![Screenshot 10a](Images/Screensthot_10a.png)
 ### Screenshot 10.b: Target message – Second NTE segment
-![Screenshot 10b].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_10b.png)
+![Screenshot 10b](Images/Screensthot_10b.png)
 ### Screenshot 10.c: Target message – Third NTE segment
-![Screenshot 10c].(https://raw.githubusercontent.com/pandeySR/HL7MessageSplitAndSend/main/Images/Screensthot_10c.png)
+![Screenshot 10c](Images/Screensthot_10c.png)
 
-I hope this template will help streamline your HL7 message processing. If you have any questions or need further assistance, please feel free to ask.
-Thank you.
+I hope this template will help streamline your HL7 message processing. 
 
 Thank you.
